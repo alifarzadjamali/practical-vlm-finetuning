@@ -61,7 +61,7 @@ Read [bringing your own data](docs/your-data.md) before building a real dataset.
 ## Repo map
 
 ```text
-fashion-vlm-adaptation/
+practical-vlm-finetuning/
 ├── lessons/                 # the five files to follow in order
 ├── src/vlm_finetune/        # reusable loading, data, training, and evaluation code
 ├── data/samples/            # two tiny examples that document the format

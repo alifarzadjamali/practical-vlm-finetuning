@@ -3,7 +3,7 @@ requires = ["setuptools>=70"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "basic-vlm-finetune"
+name = "practical-vlm-finetuning"
 version = "0.2.0"
 description = "A small, friendly path from VLM baseline to LoRA fine-tuning"
 readme = "README.md"
