@@ -1,5 +1,0 @@
-Metadata-Version: 2.4
-Name: basic_vlm_finetune
-Version: 0.1.0
-Summary: Qwen2-VL multimodal learning project
-Requires-Python: >=3.11

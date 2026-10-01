@@ -1,8 +1,25 @@
-[project]
-name = "basic_vlm_finetune"
-version = "0.1.0"
-description = "Qwen2-VL multimodal learning project"
-requires-python = ">=3.11"
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
 
-[tool.setuptools]
-packages = ["src"]
+[project]
+name = "basic-vlm-finetune"
+version = "0.2.0"
+description = "A small, friendly path from VLM baseline to LoRA fine-tuning"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "accelerate>=1.2,<2",
+    "bitsandbytes>=0.45,<1",
+    "peft>=0.14,<1",
+    "pillow>=11,<13",
+    "torch>=2.4,<3",
+    "transformers>=4.49,<5",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"

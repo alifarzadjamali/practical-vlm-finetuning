@@ -1,7 +1,0 @@
-README.md
-pyproject.toml
-basic_vlm_finetune.egg-info/PKG-INFO
-basic_vlm_finetune.egg-info/SOURCES.txt
-basic_vlm_finetune.egg-info/dependency_links.txt
-basic_vlm_finetune.egg-info/top_level.txt
-src/__init__.py
